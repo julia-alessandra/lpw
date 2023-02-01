@@ -1,0 +1,84 @@
+    #logomarca {
+        width: 200px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    h1,
+    h2 {
+        font-family:Georgia, "Times New Roman", Times, serif;
+        text-align: center;
+        color: rgb(184, 89, 0);
+    }
+    
+    body {
+        background-color: rgb(255, 203, 143);
+        font-size: 20px;
+        margin-left: 50px;
+        margin-right: 50px;
+        font-family: serif;
+    }
+    
+    iframe {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    a:link {
+        color: black;
+        text-decoration: underline;
+    }
+    
+    a:visited {
+        color: rgb(180, 99, 32);
+        text-decoration: underline;
+    }
+    
+    a:hover {
+        color: rgb(136, 88, 0);
+        text-decoration: none;
+    }
+    
+    a:active {
+        color: rgb(216, 177, 105);
+    }
+    
+    a[href^="http"] {
+        background-image: url(img/globo.png);
+        background-repeat: no-repeat;
+        padding-left: 20px;
+    }
+
+    .nota{
+        opacity: 0.7;
+        background-color: rgb(247, 211, 171);
+    }
+
+    .nota strong {
+        color: rgb(202, 103, 37);
+    }
+ 
+    .passo strong {
+        font-size: 30px;
+        background-color: rgb(255, 188, 100);
+        color: rgb(158, 84, 0);
+    }
+    .passo em{
+        font-size: 24px;
+    }
+
+    p:nth-child(2n+1) {
+        text-align: left;
+    }
+
+    p:nth-child(2n){
+        text-align: right;
+    }
+
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right:auto;
+    }
